@@ -1,0 +1,90 @@
+This is an tutorial how to make an android soundboard.
+
+
+
+----------------------------------------­----------------------------------------­----------------------------------------­--
+Download the template files.
+Go To:
+
+http://db.tt/A3aj9aJW
+
+
+When the download is done unpack the rar file !
+
+Open the folder: Android Soundboard Template 
+
+First you need to install 1 -android SDK !
+When the install is done open Android SDK manager
+Select all packages and click on install.
+Then you need to download Eclipse
+Just open 2 - Eclipse installer !
+It wil install eclipse on your C drive 
+When the installation is done open Eclipse 
+
+Click on Help
+Install software .....
+
+Insert the following link : https://dl-ssl.google.com/android/ecl... 
+and select :
+Developer tools and NDK Plugins
+and click next, next , next accept ........ finish
+It will now install some software.
+Now we are going to import the template !
+
+Open the folder Android soundboard template
+
+This app is working
+You want to make your own soundboard.
+I will tell you wich files you need to change !
+We are going to make an app soundboard test 2
+First we need to change AndroidManifest.xml
+
+Change the package name 
+Then go to AndroidManifest.xml
+Change the Android:label
+By pressing CTRL+s you will save it
+
+Then go to :
+Res
+Values
+strings.xml
+and click on strings.xml
+
+Change the title_activity_.........
+and the app name
+
+Now we need to go back to AndroidManifest.XML
+Copy the package name
+
+Go to src
+and rename com.soundboardtest to the package name !
+you can rename by pressing F2
+You will get an error just click on continue .
+
+We are almost done !
+
+In the folder raw are the music files.
+Just create new files with the same name and it will automaticly work .
+
+Then we go to activity soundboardtest.xml in layout
+Click on activity_soundboardtest.xml
+
+Then you will see button
+You only need to change :
+Android:text="What ever you want"
+By pressing CTRL+s you will save it
+
+We only need to change the name folder 
+Click on the folder and press F2
+and change the name
+
+Now we will export it to an APK file
+You just can insert any password
+i choosed for poiuy
+
+choose 22 years. Than you'll be able to use it in the Google Play store
+You can now install it on your cell phone/ smartphone or tablet
+
+
+your app is now done
+We only need to export it.
